@@ -4,11 +4,11 @@ public class Problema3
 {
     public string CompararCopias(int originalValue, Product product)
     {
-        // Copia del valor (tipo valor - se copia por valor)
+        // Copia del valor 
         int copia = originalValue;
         copia++;
 
-        // Copia de la referencia (tipo referencia - apunta al mismo objeto)
+        // Copia de la referencia 
         Product productoCopia = product;
         productoCopia.SetDescription("Descripcion modificada");
 
