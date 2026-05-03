@@ -24,10 +24,6 @@ Console.WriteLine(p4.CalcularPromedio(8, null, 6));
 
 // Problema 5
 var p5 = new Problema5();
-
-Console.WriteLine(p5.ObtenerImporteFinal(new RetailSale(1000m)));
-Console.WriteLine(p5.ObtenerImporteFinal(new WholesaleSale(1000m)));
-
 Console.WriteLine($"{p5.ObtenerImporteFinal(new RetailSale(1000m))} - {p5.ObtenerImporteFinal(new WholesaleSale(1000m))}");
 
 
